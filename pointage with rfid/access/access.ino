@@ -23,19 +23,14 @@ File myFile;
 
 
 // Replace with your network credentials
-const char* ssid2 = "RD-Team";
-const char* password2 = "R&D-T3@m";
 
-const char* ssid1 = "RD-Team";
-const char* password1 = "R&D-T3@m";
+const char* ssid = "ssid";
+const char* password = "password";
 
-const char* ssid = "RD-Team";
-const char* password = "R&D-T3@m";
-
-//const char* ssid = "I-Space-09"; 
-//const char* password = "I-Space_147b\"4('fdvbc4";
-//const char* ssid = "Redmi 10C"; 
-//const char* password = "12345678"; 
+//const char* ssid = "ssid"; 
+//const char* password = "password";
+//const char* ssid = "ssid"; 
+//const char* password = "password"; 
 const int MAX_WIFI_RETRIES = 2; // maximum number of Wi-Fi connection retries
 const int WIFI_RETRY_INTERVAL = 500; // time interval between Wi-Fi connection retries in milliseconds
 
@@ -49,9 +44,9 @@ String text;
 String CardNumber = "";
 //Your Domain name with URL path or IP address with path
 
-const char* serverName = "https://back.el-erp.saas.elastic-erp.com/api/pointing/storeOffline";
+const char* serverName = "server";
 // define the login server that will give me the token
-const char* loginServer = "https://back.el-erp.saas.elastic-erp.com/api/pointageLogin";
+const char* loginServer = "loginServer";
 
 const char* username = "superadmin@tac-tic.net"; // replace with your username
 const char* user_password = "147258"; // replace with your password

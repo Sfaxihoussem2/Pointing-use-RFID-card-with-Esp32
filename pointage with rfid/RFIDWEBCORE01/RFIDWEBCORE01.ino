@@ -24,16 +24,16 @@ WebSocketsClient webSocket;
 
 TaskHandle_t taskWebSocket, taskRFID;
 
-const char* ssid2 = "RD-Team";
-const char* password2 = "R&D-T3@m";
+const char* ssid2 = "ssid";
+const char* password2 = "password";
 
-const char* ssid1 = "RD-Team";
-const char* password1 = "R&D-T3@m";
+const char* ssid1 = "ssid";
+const char* password1 = "password";
 
-const char* ssid = "RD-Team";
-const char* password = "R&D-T3@m";
-const char* serverAddress = "ws.elastic-watch.elastic-solutions.com";
-const int serverPort = 14000;
+const char* ssid = "ssid";
+const char* password = "password";
+const char* serverAddress = "serverAddress";
+const int serverPort = port;
 
 const int MAX_WIFI_RETRIES = 2;
 const int WIFI_RETRY_INTERVAL = 500;
@@ -46,10 +46,10 @@ ESP32Time rtc(3600);
 String text;
 String CardNumber = "";
 
-const char* serverName = "https://back.el-erp.saas.elastic-erp.com/api/pointing/storeOffline";
-const char* loginServer = "https://back.el-erp.saas.elastic-erp.com/api/pointageLogin";
-const char* username = "superadmin@tac-tic.net";
-const char* user_password = "147258";
+const char* serverName = "serverName";
+const char* loginServer = "LoginserverName";
+const char* username = "username";
+const char* user_password = "password";
 String authToken;
 
 const int MAX_STRING_COUNT = 200;
